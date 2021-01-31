@@ -7,7 +7,7 @@
 
 **Sprint Number:** Nr
 
-**Scrum Master**: Name
+**Scrum Master**: Elias Torres
 
 **Git Master**: Name
 

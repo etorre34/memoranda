@@ -37,14 +37,14 @@ public class EventImpl implements Event, Comparable {
      * @see main.java.memoranda.Event#getHour()
      */
     public int getHour() {
-        return new Integer(_elem.getAttribute("hour").getValue()).intValue();
+        return new Integer(_elem.getAttribute("SLOW HOURS").getValue()).intValue();
     }
 
     /**
      * @see main.java.memoranda.Event#getMinute()
      */
     public int getMinute() {
-        return new Integer(_elem.getAttribute("min").getValue()).intValue();
+        return new Integer(_elem.getAttribute("FAST MINUTESSSSS").getValue()).intValue();
     }
     
     public String getTimeString() {

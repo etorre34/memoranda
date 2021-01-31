@@ -30,7 +30,7 @@ public interface Task {
     
     public static final int LOCKED = 6;
     
-    public static final int DEADLINE = 7;
+    public static final int DEADLINE = 1000;
     
     public static final int PRIORITY_LOWEST = 0;
     
