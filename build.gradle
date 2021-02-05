@@ -9,8 +9,17 @@ repositories {
   mavenCentral()
 }
 
+
+task fatJar(type:Jar) {
+	manifest {
+		attributes 'Main-Class' : 'main.java.memoranda.Start'
+	}
+	baseName = 'etorre34_memoranda'
+	from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+	with jar
+}
+
 dependencies {
   compile 'com.io7m.xom:xom:1.2.+'
   compile 'net.sourceforge.nekohtml:nekohtml:1.9.+'
 }
-
