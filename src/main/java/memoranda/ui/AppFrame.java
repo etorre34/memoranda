@@ -301,7 +301,7 @@ public class AppFrame extends JFrame {
             }
         });        
         
-        jMenuHelpAbout.setText(Local.getString("About Memoranda"));
+        jMenuHelpAbout.setText(Local.getString("About Memoranda: Gym Edition"));
         jMenuHelpAbout.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 jMenuHelpAbout_actionPerformed(e);
@@ -626,7 +626,7 @@ public class AppFrame extends JFrame {
             }
 
             public void projectWasChanged() {
-                setTitle("Memoranda - " + CurrentProject.get().getTitle());
+                setTitle("Memoranda: Gym Edition - " + CurrentProject.get().getTitle());
             }
         });
 
